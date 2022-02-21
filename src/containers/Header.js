@@ -1,5 +1,5 @@
 import React from "react";
-import craigface from '../static/graphics/CraigFace.png'
+import logo from '../static/graphics/craigLogo.png'
 import { useNavigate } from "react-router";
 import '../static/CSS/header.css'
 
@@ -33,7 +33,7 @@ const Header = ()=>{
         <>
             <div className="header-container">
                 <div className="logo">
-                    <img src={craigface} onClick={handleFaceClick}/>
+                    <img src={logo} onClick={handleFaceClick} width="200px"/>
                 </div>
                 <div className="career">
                     <ul>

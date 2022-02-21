@@ -22,8 +22,17 @@
   list-style: none;
   font-weight: bold;
   font-size: 24px;
-  color: black;
   padding: 0;
+}
+
+.career ul li{
+  transition: 0.5s;
+  color: #403D39;
+}
+
+.career ul li:hover{
+  color: black;
+  transition: 0.5s;
 }
 
 .career ul li {
@@ -41,7 +50,7 @@
   list-style: none;
   font-weight: bold;
   font-size: 24px;
-  color: black;
+  color: #CCC5B9;
   padding: 0;
 }
 
@@ -51,5 +60,12 @@
 
 .personals ul li a {
   text-decoration: none;
+  color: #CCC5B9;
+  transition: 0.5s;
+}
+
+.personals ul li a:hover{
+  text-decoration: none;
   color: black;
+  transition: 0.5s;
 }

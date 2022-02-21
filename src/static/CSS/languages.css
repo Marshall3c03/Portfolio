@@ -8,6 +8,39 @@
 
 .languages-component {
   background-color: #EB5E28;
-  height: 20vh;
   width: 100%;
 } 
+
+.languages-cards-container {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16rem;
+  height: 20rem;
+  background-color: #252422;;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.language-card-text {
+  margin: 0;
+  margin-top: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.language-card-image {
+  display: flex;
+  margin-top: 2.5rem;
+  width: 10rem;
+}
