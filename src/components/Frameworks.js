@@ -1,11 +1,12 @@
 import React from "react";
+import '../static/CSS/frameworks.css'
 
 const Frameworks = ()=>{
 
     return(
-        <>
-           <p>I Am a Framework component</p>
-        </>
+        <div className="frameworks-component">
+           <h1 className="frameworks-text">Frameworks</h1>
+        </div>
     );
 }
 

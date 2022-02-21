@@ -1,6 +1,7 @@
 import React from "react";
 import craigface from '../static/graphics/CraigFace.png'
 import { useNavigate } from "react-router";
+import '../static/CSS/header.css'
 
 const Header = ()=>{
 
@@ -31,17 +32,17 @@ const Header = ()=>{
     return(
         <>
             <div className="header-container">
-                <div className="Logo">
+                <div className="logo">
                     <img src={craigface} onClick={handleFaceClick}/>
                 </div>
-                <div className="Career">
+                <div className="career">
                     <ul>
                         <li onClick={handleLanguages}>Languages</li>
                         <li onClick={handleFrameWorks}>FrameWorks</li>
                         <li onClick={handleProjects}>Projects</li>
                     </ul>
                 </div>
-                <div className="Personals">
+                <div className="personals">
                     <ul>
                         <li><a href="/profile">Profile</a></li>
                         <li><a href="/blog">Blog</a></li>

@@ -1,0 +1,13 @@
+.frameworks-text {
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.frameworks-component {
+  background-color: #252422;
+  height: 20vh;
+  width: 100%;
+} 

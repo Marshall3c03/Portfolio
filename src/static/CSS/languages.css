@@ -1,0 +1,13 @@
+.languages-text {
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.languages-component {
+  background-color: #EB5E28;
+  height: 20vh;
+  width: 100%;
+} 

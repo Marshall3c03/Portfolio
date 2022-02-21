@@ -1,11 +1,12 @@
 import React from "react";
+import '../static/CSS/languages.css'
 
 const Languages = ()=>{
 
     return(
-        <>
-           <p>I Am a Language component</p>
-        </>
+        <div className="languages-component">
+           <h1 className="languages-text">Languages</h1>
+        </div>
     );
 }
 
