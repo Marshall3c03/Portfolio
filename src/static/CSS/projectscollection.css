@@ -43,4 +43,12 @@
 
 .project-avatar {
   width: var(--avatar-size);
+  transition: 0.75s;
+}
+
+.project-avatar:hover {
+  width: var(--avatar-size);
+  transition: 0.75s;
+  box-sizing: border-box;
+  border: 0.5rem solid #EB5E28;
 }

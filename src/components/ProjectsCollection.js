@@ -1,40 +1,30 @@
 import React from "react";
+import { ProjectsData } from "./ProjectsData";
 import '../static/CSS/projectscollection.css'
 import comingsoon from '../static/graphics/comingsoon.png'
+import premLogo from '../static/graphics/premlogoWbackground.png'
+import helloworld from '../static/graphics/helloworldlogo.png'
+import monkeychef from '../static/graphics/monkeychef.png'
 
 const ProjectsCollection = ()=>{
 
-    const handlePremierLeagueProject = ()=>{
-        console.log("Premier League project clicked")
-        window.location.href = 'https://github.com/Marshall3c03/SportsLeagueWebApp'
+    const projects = ()=>{
+        {ProjectsData.map((item, index)=>{
+        return(
+            <img onClick={()=> item.onClick()} key={index} className="project-avatar" src={item.image}/>
+        )})}
     }
-
-    const handleHelloWorldProject = ()=>{
-        console.log("Hello World project clicked")
-        window.location.href = 'https://github.com/Marshall3c03/BBC_Hello_World'
-    }
-
-    const handleMonkeyChefProject = ()=>{
-        console.log("Monkey Chef project clicked")
-        window.location.href = 'https://github.com/Marshall3c03/MonkeyChef'
-    }
-
+    
     return(
         <div id="allprojects-id" className="all-projects-component">
             <h1 className="allprojects-text">All Projects</h1>
             <div className="test">
                 <div className="all-projects-container">
                     <div className="project-avatars">
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
-                        <img className="project-avatar" src={comingsoon}/>
+                        {ProjectsData.map((item, index)=>{
+                        return(
+                            <img onClick={()=> item.onClick()} key={index} className="project-avatar" src={item.image}/>
+                        )})}
                     </div>
                 </div>
             </div>
