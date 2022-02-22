@@ -1,0 +1,74 @@
+.profile-component {
+  margin: 0;
+  background-color: #EB5E28;
+  width: 100%;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.education-component {
+  margin: 0;
+  padding-bottom: 3rem;
+  background-color: #252422;
+  width: 100%;
+}
+
+.work-component {
+  margin: 0;
+  background-color: #403D39;
+  width: 100%;
+}
+
+.headings {
+  color: white;
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.content {
+  color: white;
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.education {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.education-institute {
+  margin: 0;
+}
+
+.education-text {
+  margin-top: 0;
+  margin-left: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.education-learnings {
+  margin: 0;
+  padding: 10px;
+}
+
+.education-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+}
