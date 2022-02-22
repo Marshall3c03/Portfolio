@@ -26,7 +26,7 @@ const ProjectsCollection = ()=>{
             </div>
             <div className="arrow-container">
                 <img className="up-arrow" src={upArrow} onClick={handleGotoTop}/>
-                <p>Return to Top</p>
+                <p className="up-arrow-text">Return to Top</p>
             </div>
         </div>
     );

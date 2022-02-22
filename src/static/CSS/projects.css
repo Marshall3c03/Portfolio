@@ -4,6 +4,7 @@
   --primary-color2: #0076c6;
   --primary-color3: #0076c6;
   --project-card-colour: #3a3834;
+  --project-padding: 4rem;
 }
 
 
@@ -38,8 +39,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 0.5rem; */
-  padding-bottom: 10rem;
+  padding-bottom: var(--project-padding);
 }
 
 .part2 {
@@ -51,8 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 0.5rem; */
-  padding-bottom: 10rem;
+  padding-bottom: var(--project-padding);
 }
 
 .part3 {
@@ -64,8 +63,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 0.5rem; */
-  padding-bottom: 10rem;
+  padding-bottom: var(--project-padding);
 }
 
 .project-title {
@@ -87,19 +85,23 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .proj-lang-avatar {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin: 0.5rem;
   width: 4rem;
 }
 
 .project-description {
   text-align: center;
-  width: 22rem;
+  width: 24rem;
   display: flex;
   flex-wrap: wrap;
+  overflow-wrap: break-word;
+  font-weight: bold;
 }
 
 .project-tasks {
@@ -109,10 +111,20 @@
   flex-wrap: wrap;
 }
 
+.colour-orange {
+  color: #EB5E28;
+  font-weight: bold;
+}
+
+.colour-grey {
+  color: #252422;
+  font-weight: bold;
+}
+
 /* ////////////BUTTON CSS////////////// */
 
 .button {
-  margin-top: 1rem;
+  margin-top: 2rem;
   align-items: center;
   appearance: none;
   background-color: #fff;

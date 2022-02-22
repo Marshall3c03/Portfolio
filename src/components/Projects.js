@@ -51,10 +51,10 @@ const Projects = ()=>{
                     </div>
                     <p className="project-description">Sports web application that allows users to input a set of teams from the premier league, add matches between teams to follow along with the real scores.</p>
                     <ul className="project-tasks">
-                        <li>Consolidated knowledge of Python</li>
-                        <li>Worked with PostgresSQL database to store team data</li>
-                        <li>Utilised Flask framework to build the front-end of the Web Application</li>
-                        <li>CSS styling applied to improve the Web Applications aesthetics</li>
+                        <li>Consolidated knowledge of <b className="colour-orange">Python</b></li>
+                        <li>Worked with <b className="colour-orange">PostgresSQL database</b> to store team data</li>
+                        <li>Utilised <b className="colour-orange">Flask framework</b> to build the <b className="colour-orange">front-end</b> of the <b className="colour-orange">Web Application</b></li>
+                        <li><b className="colour-orange">CSS</b> styling applied to improve the <b className="colour-orange">Web Applications aesthetics</b></li>
                     </ul>
                     <button onClick={handlePremierLeagueProject} className="button" role="button">View Project</button>
                 </div>
@@ -70,12 +70,12 @@ const Projects = ()=>{
                         <img className="proj-lang-avatar" src={css}/>
                         <img className="proj-lang-avatar" src={html}/>
                     </div>
-                    <p className="project-description">Educational app for kids focussing on our solar system. Interactive elements along with 3D models, quizzes and audio to help keep them engaged.</p>
+                    <p className="project-description colour-orange">Educational app for kids focussing on our solar system. Interactive elements along with 3D models, quizzes and audio to help keep them engaged.</p>
                     <ul className="project-tasks">
-                        <li>Consolidated knowledge of JavaScript</li>
-                        <li>Ran MongoDB as our database to understand NoSQL databases</li>
-                        <li>Used React to help build our user interfaces (learned to work with components)</li>
-                        <li>Further CSS was learned to accommodate groups wireframe plans</li>
+                        <li>Consolidated knowledge of <b className="colour-orange">JavaScript</b></li>
+                        <li>Ran <b className="colour-orange">MongoDB</b> as our <b className="colour-orange">database</b> to understand <b className="colour-orange">NoSQL</b> databases</li>
+                        <li>Used <b className="colour-orange">React</b> to help build our <b className="colour-orange">user interfaces</b> (learned to work with <b className="colour-orange">components</b>)</li>
+                        <li>Further <b className="colour-orange">CSS</b> was learned to accommodate groups <b className="colour-orange">wireframe plans</b></li>
                     </ul>
                     <button onClick={handleHelloWorldProject} className="button" role="button">View Project</button>
                 </div>
@@ -90,12 +90,13 @@ const Projects = ()=>{
                         <img className="proj-lang-avatar" src={css}/>
                         <img className="proj-lang-avatar" src={html}/>
                     </div>
-                    <p className="project-description">A meal planner and recipe management web application. Allowing the user to efficiently plan their weekly meals.</p>
+                    <p className="project-description colour-grey">A meal planner and recipe management web application. Allowing the user to efficiently plan their weekly meals.</p>
                     <ul className="project-tasks">
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
+                        <li>Reinforced knowledge of <b className="colour-grey">JavaScript</b></li>
+                        <li>Worked with a <b className="colour-grey">MongoDB database</b></li>
+                        <li>Focused on following <b className="colour-grey">Industry Standards</b> throughout the project to build our confidence leaving <b className="colour-grey">CodeClan</b></li>
+                        <li>Reinforced knowledge and competence with <b className="colour-grey">React</b> for front-end developement</li>
+                        <li>Focused on a good <b className="colour-grey">User Experience</b>, using appealing graphics and layouts</li>
                     </ul>
                     <button onClick={handleMonkeyChefProject} className="button" role="button">View Project</button>
                 </div>

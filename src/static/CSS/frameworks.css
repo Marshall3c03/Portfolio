@@ -28,7 +28,7 @@
   border-radius: 0.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   transition: 0.5s;
 }
 
@@ -44,4 +44,8 @@
   margin-right: 2rem;
   transition: 0.5s;
   transform: scale(1.05)
+}
+
+.language-card-image {
+  border-radius: 1rem;
 }
