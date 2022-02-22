@@ -83,6 +83,18 @@
   align-items: center; */
 }
 
+.project-langauges {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.proj-lang-avatar {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 4rem;
+}
+
 .project-description {
   text-align: center;
   width: 22rem;
