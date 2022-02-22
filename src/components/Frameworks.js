@@ -1,8 +1,9 @@
 import React from "react";
 import '../static/CSS/frameworks.css'
-import flask from '../static/graphics/Flask.png'
-import spring from '../static/graphics/spring.png'
-import jinja from '../static/graphics/jinja.png'
+import flask from '../static/graphics/skills/Flask.png'
+import spring from '../static/graphics/skills/spring.png'
+import jinja from '../static/graphics/skills/jinja.png'
+import react from '../static/graphics/skills/react.png'
 
 const Frameworks = ()=>{
 
@@ -16,7 +17,7 @@ const Frameworks = ()=>{
                 </div>
                 <div className="frameworks-card">
                     <h2 className="language-card-text">React</h2>
-                    <img className="language-card-image" src="https://cdn.worldvectorlogo.com/logos/react-1.svg"/>
+                    <img className="language-card-image" src={react}/>
                 </div>
                 <div className="frameworks-card">
                     <h2 className="language-card-text">Spring</h2>

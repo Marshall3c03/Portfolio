@@ -1,18 +1,14 @@
 import React from "react";
 import { ProjectsData } from "./ProjectsData";
 import '../static/CSS/projectscollection.css'
-import comingsoon from '../static/graphics/comingsoon.png'
-import premLogo from '../static/graphics/premlogoWbackground.png'
-import helloworld from '../static/graphics/helloworldlogo.png'
-import monkeychef from '../static/graphics/monkeychef.png'
+import upArrow from '../static/graphics/links/up-arrow.svg'
 
 const ProjectsCollection = ()=>{
 
-    const projects = ()=>{
-        {ProjectsData.map((item, index)=>{
-        return(
-            <img onClick={()=> item.onClick()} key={index} className="project-avatar" src={item.image}/>
-        )})}
+    const handleGotoTop = ()=>{
+        console.log("GotoTop pressed")
+        var header = document.getElementById("header-id");
+        header.scrollIntoView();
     }
     
     return(
@@ -27,6 +23,10 @@ const ProjectsCollection = ()=>{
                         )})}
                     </div>
                 </div>
+            </div>
+            <div className="arrow-container">
+                <img className="up-arrow" src={upArrow} onClick={handleGotoTop}/>
+                <p>Return to Top</p>
             </div>
         </div>
     );

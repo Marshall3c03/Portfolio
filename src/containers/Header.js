@@ -13,28 +13,25 @@ const Header = ()=>{
 
     const handleLanguages = ()=>{
         navigate('/')
-        console.log("Clicked Languages")
         var languages = document.getElementById("languages-id");
         languages.scrollIntoView();
     } 
     
     const handleFrameWorks = ()=>{
         navigate('/')
-        console.log("Clicked Frameworks")
         var frameworks = document.getElementById("frameworks-id");
         frameworks.scrollIntoView();
     }
     
     const handleProjects = ()=>{
         navigate('/')
-        console.log("Clicked Projects")
         var projects = document.getElementById("projects-id");
         projects.scrollIntoView();
     }
 
     return(
         <>
-            <div className="header-container">
+            <div id="header-id" className="header-container">
                 <div className="logo">
                     <img src={logo} onClick={handleFaceClick} width="200px"/>
                 </div>

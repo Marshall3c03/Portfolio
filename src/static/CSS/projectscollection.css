@@ -20,6 +20,7 @@
 .all-projects-component {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .all-projects-container {
@@ -51,4 +52,16 @@
   transition: 0.75s;
   box-sizing: border-box;
   border: 0.5rem solid #EB5E28;
+}
+
+.arrow-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-arrow {
+  width: 5rem;
 }
