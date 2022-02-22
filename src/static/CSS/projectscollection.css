@@ -1,0 +1,46 @@
+:root {
+  --avatar-size: 175px;
+}
+
+.allprojects-text {
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-projects-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-projects-container {
+  width: 61vw;
+  border-radius: 0.5rem;
+  background-color: #252422;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-avatars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.project-avatar {
+  width: var(--avatar-size);
+}

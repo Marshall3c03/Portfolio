@@ -2,6 +2,7 @@ import React from "react";
 import Frameworks from "../components/Frameworks";
 import Languages from "../components/Languages";
 import Projects from "../components/Projects";
+import ProjectsCollection from "../components/ProjectsCollection";
 import '../static/CSS/homepage.css'
 
 import Header from "./Header";
@@ -15,6 +16,7 @@ const HomePage = ()=>{
             <Languages/>
             <Frameworks/>
             <Projects/>
+            <ProjectsCollection/>
         </div>
     );
 };
