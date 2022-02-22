@@ -20,7 +20,7 @@ const Languages = ()=>{
                     <img className="language-card-image" src="https://icon-library.com/images/java-icon-png/java-icon-png-2.jpg"/>
                 </div>
                 <div className="language-card">
-                    <h2 className="language-card-text">Java</h2>
+                    <h2 className="language-card-text">PSQL</h2>
                     <img className="language-card-image" src="https://ih1.redbubble.net/image.1952945198.6602/mo,small,flatlay,product_square,600x600.jpg"/>
                 </div>
            </div>

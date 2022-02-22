@@ -1,9 +1,7 @@
 import React from 'react'
-import github from '../static/graphics/github.svg'
-import twitter from '../static/graphics/twitter.svg'
-import linkedin from '../static/graphics/linkedin.svg'
-import top from '../static/graphics/top.svg'
-
+import github from '../static/graphics/links/github.svg'
+import twitter from '../static/graphics/links/twitter.svg'
+import linkedin from '../static/graphics/links/linkedin.svg'
 
 export const SidebarData = [
     {
@@ -21,9 +19,4 @@ export const SidebarData = [
         icon: linkedin,
         cName: 'nav-text'  
     }
-    // {
-    //     onClick: ()=>{window.location.href = 'https://github.com/Marshall3c03'},
-    //     icon: top, 
-    //     cName: 'nav-text'
-    // }
 ]

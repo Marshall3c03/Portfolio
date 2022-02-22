@@ -1,7 +1,7 @@
 import React from "react";
 import { SidebarData } from "./SidebarData";
 import { useNavigate } from "react-router-dom";
-import email from '../static/graphics/email.svg'
+import email from '../static/graphics/links/email.svg'
 import '../static/CSS/sidenav.css'
 
 const SideNav = ( {})=>{
