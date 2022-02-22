@@ -4,7 +4,7 @@ import '../static/CSS/languages.css'
 const Languages = ()=>{
 
     return(
-        <div className="languages-component">
+        <div id="languages-id" className="languages-component">
            <h1 className="languages-text">Languages</h1>
            <div className="languages-cards-container">
                 <div className="language-card">

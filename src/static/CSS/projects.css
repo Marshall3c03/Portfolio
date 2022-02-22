@@ -1,3 +1,12 @@
+:root {
+  --primary-color1: #0076c6;
+  --primary-color2: #0076c6;
+  --primary-color3: #0076c6;
+  --project-card-colour: #3a3834;
+  --blur: 10px;
+}
+
+
 .projects-text {
   margin: 0;
   padding-left: 1rem;
@@ -8,11 +17,21 @@
 
 .projects-component {
   background-color: #403D39;
-  height: 20vh;
   width: 100%;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
 } 
+/* 
+.projects-component:hover {
+  background-color: #403D39;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}  */
 
 .projects-text {
   margin: 0;
@@ -29,19 +48,55 @@
 }
 
 .part1 {
-  background-color: aqua;
+  background-color: #403D39;
+  color: white;
   margin: 0;
   width: calc(100vw / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 10rem;
 }
 
 .part2 {
-  background-color: red;
+  background-color: #252422;
+  color: white;
   margin: 0;
   width: calc(100vw / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 10rem;
 }
 
 .part3 {
-  background-color: orchid;
+  background-color: #EB5E28;
+  color: white;
   margin: 0;
   width: calc(100vw / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 10rem;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.prem-project-title {
+  width: 20rem;
+  text-align: center;
+}
+
+.project-logo {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }

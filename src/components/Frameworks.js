@@ -7,7 +7,7 @@ import jinja from '../static/graphics/jinja.png'
 const Frameworks = ()=>{
 
     return(
-        <div className="frameworks-component">
+        <div id="frameworks-id" className="frameworks-component">
            <h1 className="frameworks-text">Frameworks</h1>
            <div className="languages-cards-container">
                 <div className="frameworks-card">

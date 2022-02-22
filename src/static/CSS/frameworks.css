@@ -11,6 +11,12 @@
   width: 100%;
 } 
 
+/* .frameworks-component:hover {
+  background-color: #252422;
+  width: 100%;
+  transition: 0.5s;
+  border-top: 10px solid black;
+} */
 
 .frameworks-card {
   display: flex;

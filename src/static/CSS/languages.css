@@ -9,7 +9,16 @@
 .languages-component {
   background-color: #EB5E28;
   width: 100%;
+  transition: 0.5s;
 } 
+
+/* .languages-component:hover {
+  background-color: #EB5E28;
+  width: 100%;
+  transition: 0.5s;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}  */
 
 .languages-cards-container {
   padding-top: 2rem;

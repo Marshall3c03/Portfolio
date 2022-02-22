@@ -14,19 +14,22 @@ const Header = ()=>{
     const handleLanguages = ()=>{
         navigate('/')
         console.log("Clicked Languages")
-        document.getElementById("languages").scrollIntoView();
+        var languages = document.getElementById("languages-id");
+        languages.scrollIntoView();
     } 
     
     const handleFrameWorks = ()=>{
         navigate('/')
         console.log("Clicked Frameworks")
-        document.getElementById("frameworks").scrollIntoView();
+        var frameworks = document.getElementById("frameworks-id");
+        frameworks.scrollIntoView();
     }
     
     const handleProjects = ()=>{
         navigate('/')
         console.log("Clicked Projects")
-        document.getElementById("projects").scrollIntoView();
+        var projects = document.getElementById("projects-id");
+        projects.scrollIntoView();
     }
 
     return(
@@ -37,8 +40,8 @@ const Header = ()=>{
                 </div>
                 <div className="career">
                     <ul>
-                        <li onClick={handleLanguages}>Languages</li>
-                        <li onClick={handleFrameWorks}>FrameWorks</li>
+                        <li onClick={handleLanguages}>Language</li>
+                        <li onClick={handleLanguages}>Frameworks</li>
                         <li onClick={handleProjects}>Projects</li>
                     </ul>
                 </div>
