@@ -20,17 +20,14 @@ import css from '../static/graphics/skills/css.png'
 const Projects = ()=>{
 
     const handlePremierLeagueProject = ()=>{
-        console.log("Premier League project clicked")
         window.location.href = 'https://github.com/Marshall3c03/SportsLeagueWebApp'
     }
 
     const handleHelloWorldProject = ()=>{
-        console.log("Hello World project clicked")
         window.location.href = 'https://github.com/Marshall3c03/BBC_Hello_World'
     }
 
     const handleMonkeyChefProject = ()=>{
-        console.log("Monkey Chef project clicked")
         window.location.href = 'https://github.com/Marshall3c03/MonkeyChef'
     }
 

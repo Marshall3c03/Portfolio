@@ -6,7 +6,6 @@ import upArrow from '../static/graphics/links/up-arrow.svg'
 const ProjectsCollection = ()=>{
 
     const handleGotoTop = ()=>{
-        console.log("GotoTop pressed")
         var header = document.getElementById("header-id");
         header.scrollIntoView();
     }
