@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./Header";
 import '../static/CSS/profile.css'
 import Education from "../components/Education";
+import WorkExperience from "../components/WorkExperience";
+import CraigProfile from "../components/CraigProfile";
 
 
 const Profile = ()=>{
@@ -9,15 +11,9 @@ const Profile = ()=>{
     return(
         <div>
             <Header/>
-            <div className="profile-component">
-                <h1 className="headings">Profile</h1>
-                <p className="content">My name is Craig Marshall</p>
-            </div>
+            <CraigProfile/>
             <Education/>
-            <div className="work-component">
-                <h1 className="headings">Work Experience</h1>
-                <p className="content">My name is Craig Marshall</p>
-            </div>
+            <WorkExperience/>
         </div>
     );
 };
