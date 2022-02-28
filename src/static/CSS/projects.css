@@ -195,6 +195,15 @@
 
 @media (min-device-width:320px) and (max-device-width:768px) {
 
+  :root {
+    /* project variables */
+    --primary-color1: #0076c6;
+    --primary-color2: #0076c6;
+    --primary-color3: #0076c6;
+    --project-card-colour: #3a3834;
+    --project-padding: 2rem;
+  }
+  
   .projects-text {
     margin: 0;
     font-size: 1.75rem;
@@ -211,7 +220,7 @@
 
   .project-langauges {
     margin-top: 0.5rem;
-    width: 10rem;
+    width: 14rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,7 +235,7 @@
 
   .project-description {
     text-align: center;
-    width: 10rem;
+    width: 14rem;
     display: flex;
     flex-wrap: wrap;
     overflow-wrap: break-word;
@@ -234,23 +243,29 @@
   }
 
   .project-tasks {
-    width: 10rem;
+    width: 196px;
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
 
+  .project-title {
+    text-align: center;
+    font-size: 1.75rem;
+  }
+
   .three-projects {
     display: flex;
     flex-direction: column-reverse;
-   }
+  }
    
 
    .part1 {
     background-color: #403D39;
     color: white;
     margin: 0;
-    width: 100vw;
+    width: 84.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +277,7 @@
     background-color: #252422;
     color: white;
     margin: 0;
-    width: 100vw;
+    width: 84.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,12 +289,47 @@
     background-color: #EB5E28;
     color: white;
     margin: 0;
-    width: 100vw;
+    width: 84.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: var(--project-padding);
+  }
+
+  .button {
+    margin-top: 0.5rem;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
   }
 
 }
