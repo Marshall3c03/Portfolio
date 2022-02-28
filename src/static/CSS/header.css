@@ -74,3 +74,23 @@ html {
   color: black;
   transition: 0.5s;
 }
+
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+
+  .career {
+    padding: 2rem;
+    padding-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+  }
+
+  .personals {
+    padding: 2rem;
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+  }
+}
