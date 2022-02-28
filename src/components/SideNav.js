@@ -19,7 +19,7 @@ const SideNav = ( {})=>{
                         </li>
                     )})
                 }
-                <li><a href="mailto: dev.craigmarshall@gmail.com?subject=Contact Me From Portfolio"><img src={email} width="58px" /></a></li>
+                <li><a href="mailto: dev.craigmarshall@gmail.com?subject=Contact Me From Portfolio"><img className="navIcon" src={email} width="58px" /></a></li>
             </ul>
         </nav>
         </>

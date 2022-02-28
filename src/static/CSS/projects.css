@@ -211,6 +211,7 @@
 
   .project-langauges {
     margin-top: 0.5rem;
+    width: 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
