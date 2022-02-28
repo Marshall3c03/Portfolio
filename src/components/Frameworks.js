@@ -17,7 +17,7 @@ const Frameworks = ()=>{
 
     return(
         <div id="frameworks-id" className="frameworks-component">
-           <h1 className="frameworks-text">Frameworks</h1>
+           <h1 className="frameworks-text">Frameworks & Skills</h1>
            <div className="frameworks-cards-container">
                 <div className="frameworks-card">
                     <h2 className="language-card-text">React</h2>

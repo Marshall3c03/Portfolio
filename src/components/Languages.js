@@ -3,7 +3,8 @@ import '../static/CSS/languages.css'
 import python from '../static/graphics/skills/python.png'
 import javascript from '../static/graphics/skills/JS.png'
 import java from '../static/graphics/skills/java.png'
-import psql from '../static/graphics/skills/psql.png'
+import html from '../static/graphics/skills/html.png'
+import css from '../static/graphics/skills/css.png'
 
 const Languages = ()=>{
 
@@ -24,8 +25,12 @@ const Languages = ()=>{
                     <img className="language-card-image" src={java}/>
                 </div>
                 <div className="language-card">
-                    <h2 className="language-card-text">PSQL</h2>
-                    <img className="language-card-image" src={psql}/>
+                    <h2 className="language-card-text">CSS</h2>
+                    <img className="language-card-image" src={css}/>
+                </div>
+                <div className="language-card">
+                    <h2 className="language-card-text">HTML</h2>
+                    <img className="language-card-image" src={html}/>
                 </div>
            </div>
         </div>
