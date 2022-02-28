@@ -35,16 +35,52 @@
   color: white;
 }
 
-.blog-entry p {
+.blog-paragraph {
   color: white;
   padding-left: 2rem;
   padding-right: 2rem;
   width: 30rem;
-  
 }
 
 .blog-date {
 margin: 0;
 padding-left: 2rem;
 color: white;
+}
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+
+  .blog-entry {
+    background-color: #252422;
+    width: 300px;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+  }
+
+  .blog-entry-title {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .blog-date {
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .blog-paragraph {
+    color: white;
+    padding: 0;
+    padding-left: 1rem;
+    width: 265px;
+    text-align: left;
+  }
+
 }
