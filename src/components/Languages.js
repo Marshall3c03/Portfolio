@@ -1,10 +1,10 @@
 import React from "react";
-import '../static/CSS/languages.css'
 import python from '../static/graphics/skills/python.png'
 import javascript from '../static/graphics/skills/JS.png'
 import java from '../static/graphics/skills/java.png'
 import html from '../static/graphics/skills/html.png'
 import css from '../static/graphics/skills/css.png'
+import '../static/CSS/languages.css'
 
 const Languages = ()=>{
 

@@ -1,3 +1,9 @@
+.frameworks-component {
+  background-color: #252422;
+  width: 100%;
+  transition: 0.5s;
+} 
+
 .frameworks-text {
   margin: 0;
   padding-left: 1rem;
@@ -5,11 +11,6 @@
   color: white;
   font-weight: bold;
 }
-
-.frameworks-component {
-  background-color: #252422;
-  width: 100%;
-} 
 
 .frameworks-cards-container {
   padding-top: 2rem;
@@ -33,7 +34,7 @@
   border-radius: 0.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   transition: 0.5s;
 }
 
@@ -51,6 +52,67 @@
   transform: scale(1.05)
 }
 
-.language-card-image {
+.frameworks-card-text {
+  margin: 0;
+  margin-top: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.frameworks-card-image {
+  display: flex;
+  margin-top: 2.5rem;
+  width: 8rem;
   border-radius: 1rem;
+}
+
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+
+  .frameworks-cards-container {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frameworks-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9rem;
+    height: 12rem;
+    background-color: #EB5E28;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    transition: 0.5s;
+  }  
+
+  .frameworks-card:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9rem;
+    height: 12rem;
+    background-color: #EB5E28;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+    transform: scale(1.05)
+  }
+
+  .frameworks-card-image {
+    display: flex;
+    margin-top: 2rem;
+    width: 4rem;
+    border-radius: 1rem;
+  }
 }
