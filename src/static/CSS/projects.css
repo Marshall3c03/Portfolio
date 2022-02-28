@@ -76,9 +76,7 @@
 }
 
 .project-logo {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  width: 150px;
 }
 
 .project-langauges {
@@ -194,3 +192,93 @@
 }
 
 /* ////////////BUTTON CSS////////////// */
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+
+  .projects-text {
+    margin: 0;
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .project-logo {
+    width: 75px;
+  }
+
+  .project-langauges {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proj-lang-avatar {
+    margin: 0.5rem;
+    width: 2rem;
+  }
+
+  .project-description {
+    text-align: center;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    font-weight: bold;
+  }
+
+  .project-tasks {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .three-projects {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   
+
+   .part1 {
+    background-color: #403D39;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--project-padding);
+  }
+  
+  .part2 {
+    background-color: #252422;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--project-padding);
+  }
+  
+  .part3 {
+    background-color: #EB5E28;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--project-padding);
+  }
+
+}

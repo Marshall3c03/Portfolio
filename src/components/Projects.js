@@ -1,11 +1,9 @@
 import React from "react";
-import '../static/CSS/projects.css'
 import premLogo from '../static/graphics/premierLeagueProjectLogo.png'
 import helloworld from '../static/graphics/helloworldlogo.png'
 import monkeychef from '../static/graphics/monkeychef.png'
 import python from '../static/graphics/skills/python.png'
 import javascript from '../static/graphics/skills/JS.png'
-import java from '../static/graphics/skills/java.png'
 import flask from '../static/graphics/skills/Flask.png'
 import react from '../static/graphics/skills/react.png'
 import jinja from '../static/graphics/skills/jinja.png'
@@ -15,6 +13,7 @@ import mongodb from '../static/graphics/skills/mongodb.png'
 import threeJs from '../static/graphics/skills/threejs.png'
 import html from '../static/graphics/skills/html.png'
 import css from '../static/graphics/skills/css.png'
+import '../static/CSS/projects.css'
 
 
 const Projects = ()=>{
@@ -37,7 +36,7 @@ const Projects = ()=>{
             <div className="three-projects">
                 <div className="part1">
                     <h1 className="prem-project-title">Premier League Sports App</h1>
-                    <img className="project-logo" src={premLogo} width="150px"/>
+                    <img className="project-logo" src={premLogo}/>
                     <div className="project-langauges">
                         <img className="proj-lang-avatar" src={python}/>
                         <img className="proj-lang-avatar" src={flask}/>
@@ -57,7 +56,7 @@ const Projects = ()=>{
                 </div>
                 <div className="part2">
                     <h1 className="project-title">BBC Hello World</h1>
-                    <img className="project-logo" src={helloworld} width="150px"/>
+                    <img className="project-logo" src={helloworld}/>
                     <div className="project-langauges">
                         <img className="proj-lang-avatar" src={javascript}/>
                         <img className="proj-lang-avatar" src={react}/>
@@ -78,7 +77,7 @@ const Projects = ()=>{
                 </div>
                 <div className="part3">
                     <h1 className="project-title">Monkey Chef</h1>
-                    <img className="project-logo" src={monkeychef} width="150px"/>
+                    <img className="project-logo" src={monkeychef}/>
                     <div className="project-langauges">
                         <img className="proj-lang-avatar" src={javascript}/>
                         <img className="proj-lang-avatar" src={react}/>
