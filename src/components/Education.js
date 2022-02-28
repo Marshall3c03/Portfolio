@@ -13,8 +13,8 @@ const Education = ()=>{
                 <img className="education-avatar" src={codeclan}/>
                 <div className="education-text">
                     <h1 className="education-institute">CodeClan Edinburgh</h1>
-                    <p>(Sept 2021 - Feb 2022)</p>
-                    <h3>Professional Software Development - SQA Level 8 Qualification</h3>
+                    <p className="education-dates">(Sept 2021 - Feb 2022)</p>
+                    <h3 className="education-qualification">Professional Software Development - SQA Level 8 Qualification</h3>
                     <ul className="education-learnings">
                         <li>Learnt Fundamentals of Software Development</li>
                         <li>800 Hours Minimum of Coding</li>
@@ -28,8 +28,8 @@ const Education = ()=>{
                 <img className="education-avatar" src={gcu}/>
                 <div className="education-text">
                     <h1 className="education-institute">Glasgow Caledonian University</h1>
-                    <p>(Sept 2016 - June 2018)</p>
-                    <h3>BSc 3D Visualisation & Animation - 2:1(HONS)</h3>
+                    <p className="education-dates">(Sept 2016 - June 2018)</p>
+                    <h3 className="education-qualification">BSc 3D Visualisation & Animation - 2:1(HONS)</h3>
                     <ul className="education-learnings">
                         <li>Undertook Real-World Projects</li>
                         <li>Worked in Teams</li>
