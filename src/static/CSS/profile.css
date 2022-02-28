@@ -114,3 +114,44 @@
   padding: 2rem;
   transition: 0.5s;
 }
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+
+  .headings {
+    color: white;
+    margin: 0;
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+  .languages-cards-container {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .craig-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9rem;
+    background-color: #252422;;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }  
+
+  .profile-content {
+    text-align: left;
+    color: white;
+    margin: 0;
+    font-size: 12px;
+  }
+
+}
